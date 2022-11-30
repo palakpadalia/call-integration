@@ -1,0 +1,102 @@
+Exception in thread Exception in thread Exception in thread Thread-1:
+Thread-1:
+Thread-1Traceback (most recent call last):
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+        pubsub.get_message(ignore_subscribe_messages=True,    pubsub.get_message(ignore_subscribe_messages=True,
+pubsub.get_message(ignore_subscribe_messages=True,
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+        response = self.parse_response(block=False, timeout=timeout)response = self.parse_response(block=False, timeout=timeout)
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+        if not block and not conn.can_read(timeout=timeout):if not block and not conn.can_read(timeout=timeout):
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+            return self._parser.can_read(timeout)return self._parser.can_read(timeout)return self._parser.can_read(timeout)
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+        return self.read_from_socket(timeout=timeout,return self.read_from_socket(timeout=timeout,
+    
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+return self.read_from_socket(timeout=timeout,  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+        raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+    
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.redis.exceptionsConnectionErrorredis.exceptions.: .ConnectionErrorConnection closed by server.ConnectionError: 
+: Connection closed by server.Connection closed by server.
+
+Exception in thread Exception in thread Thread-1:
+Thread-1Traceback (most recent call last):
+:
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    self.run()
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+      File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+return self.read_from_socket(timeout=timeout,
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)    
+return self._parser.can_read(timeout)
+redis.exceptions.  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+ConnectionError: Connection closed by server.
+    return self.read_from_socket(timeout=timeout,
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/palak/POS/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.

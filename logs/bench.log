@@ -1,0 +1,50 @@
+2022-08-26 13:36:49,879 DEBUG cd /home/palak/POS && /home/palak/.local/bin/virtualenv --quiet env -p python3
+2022-08-26 13:36:50,349 DEBUG cd /home/palak/POS && /home/palak/POS/env/bin/python -m pip install --quiet --upgrade pip
+2022-08-26 13:36:51,498 LOG Getting frappe
+2022-08-26 13:36:51,498 DEBUG cd POS/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2022-08-26 13:36:58,795 LOG Installing frappe
+2022-08-26 13:36:58,795 DEBUG cd /home/palak/POS && /home/palak/POS/env/bin/python -m pip install --quiet --upgrade -e /home/palak/POS/apps/frappe 
+2022-08-26 13:37:26,757 DEBUG cd /home/palak/POS/apps/frappe && yarn install
+2022-08-26 13:37:30,351 DEBUG cd POS && bench build
+2022-08-26 13:37:30,460 INFO /usr/local/bin/bench build
+2022-08-26 13:38:23,620 LOG setting up backups
+2022-08-26 13:38:23,630 LOG backups were set up
+2022-08-26 13:38:23,630 INFO Bench POS initialized
+2022-08-26 13:38:39,940 INFO /usr/local/bin/bench start
+2022-08-26 13:38:40,665 INFO /usr/local/bin/bench worker --queue default
+2022-08-26 13:38:40,667 INFO /usr/local/bin/bench worker --queue short
+2022-08-26 13:38:40,698 INFO /usr/local/bin/bench serve --port 8002
+2022-08-26 13:38:40,703 INFO /usr/local/bin/bench watch
+2022-08-26 13:38:40,704 INFO /usr/local/bin/bench worker --queue long
+2022-08-26 13:38:40,710 INFO /usr/local/bin/bench schedule
+2022-08-26 13:38:57,389 INFO /usr/local/bin/bench new-site pos.com
+2022-08-26 13:39:50,910 INFO /usr/local/bin/bench use pos.com
+2022-08-26 13:39:59,537 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2022-08-26 13:40:03,701 LOG Getting erpnext
+2022-08-26 13:40:03,701 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-08-26 13:40:11,615 LOG Installing erpnext
+2022-08-26 13:40:11,615 DEBUG cd /home/palak/POS && /home/palak/POS/env/bin/python -m pip install --quiet --upgrade -e /home/palak/POS/apps/erpnext 
+2022-08-26 13:40:16,044 DEBUG cd /home/palak/POS/apps/erpnext && yarn install
+2022-08-26 13:40:16,485 DEBUG bench build --app erpnext
+2022-08-26 13:40:16,599 INFO /usr/local/bin/bench build --app erpnext
+2022-08-26 13:40:35,556 INFO /usr/local/bin/bench --site pos.com install-app erpnext
+2022-08-26 13:41:22,390 INFO /usr/local/bin/bench get-app payments
+2022-08-26 13:41:26,491 LOG Getting payments
+2022-08-26 13:41:26,491 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-08-26 13:41:31,045 LOG Installing payments
+2022-08-26 13:41:31,046 DEBUG cd /home/palak/POS && /home/palak/POS/env/bin/python -m pip install --quiet --upgrade -e /home/palak/POS/apps/payments 
+2022-08-26 13:41:34,081 DEBUG bench build --app payments
+2022-08-26 13:41:34,193 INFO /usr/local/bin/bench build --app payments
+2022-08-26 13:41:56,042 INFO /usr/local/bin/bench start
+2022-08-26 13:41:56,718 INFO /usr/local/bin/bench schedule
+2022-08-26 13:41:56,771 INFO /usr/local/bin/bench serve --port 8002
+2022-08-26 13:41:56,777 INFO /usr/local/bin/bench worker --queue short
+2022-08-26 13:41:56,789 INFO /usr/local/bin/bench watch
+2022-08-26 13:41:56,789 INFO /usr/local/bin/bench worker --queue long
+2022-08-26 13:41:56,792 INFO /usr/local/bin/bench worker --queue default
+2022-08-26 18:00:01,408 INFO /usr/local/bin/bench --verbose --site all backup
+2022-08-29 12:00:01,815 INFO /usr/local/bin/bench --verbose --site all backup
+2022-08-29 18:00:01,766 INFO /usr/local/bin/bench --verbose --site all backup
+2022-08-30 12:00:01,831 INFO /usr/local/bin/bench --verbose --site all backup
+2022-08-30 18:00:02,112 INFO /usr/local/bin/bench --verbose --site all backup
+2022-08-31 12:00:01,969 INFO /usr/local/bin/bench --verbose --site all backup

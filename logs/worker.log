@@ -1,0 +1,36 @@
+13:38:41 Worker rq:worker:0915c3b49159446bb89c1d329714fe75.palak-H410M-H-V3.24833.home-palak-POS:default: started, version 1.10.1
+13:38:41 Subscribing to channel rq:pubsub:0915c3b49159446bb89c1d329714fe75.palak-H410M-H-V3.24833.home-palak-POS:default
+13:38:41 *** Listening on home-palak-POS:default...
+13:38:41 Cleaning registries for queue: home-palak-POS:default
+13:38:41 Worker rq:worker:e31e317310b6433a8a6aae4f5abe832d.palak-H410M-H-V3.24826.home-palak-POS:long: started, version 1.10.1
+13:38:41 Subscribing to channel rq:pubsub:e31e317310b6433a8a6aae4f5abe832d.palak-H410M-H-V3.24826.home-palak-POS:long
+13:38:41 *** Listening on home-palak-POS:long...
+13:38:41 Cleaning registries for queue: home-palak-POS:long
+13:38:41 Worker rq:worker:a9cae80506b2471892f7693570c7c040.palak-H410M-H-V3.24825.home-palak-POS:short: started, version 1.10.1
+13:38:41 Subscribing to channel rq:pubsub:a9cae80506b2471892f7693570c7c040.palak-H410M-H-V3.24825.home-palak-POS:short
+13:38:41 *** Listening on home-palak-POS:short...
+13:38:41 Cleaning registries for queue: home-palak-POS:short
+13:40:41 Warm shut down requested
+13:40:41 Warm shut down requested
+13:40:41 Unsubscribing from channel rq:pubsub:e31e317310b6433a8a6aae4f5abe832d.palak-H410M-H-V3.24826.home-palak-POS:long
+13:40:41 Warm shut down requested
+13:40:41 Unsubscribing from channel rq:pubsub:0915c3b49159446bb89c1d329714fe75.palak-H410M-H-V3.24833.home-palak-POS:default
+13:40:41 Unsubscribing from channel rq:pubsub:a9cae80506b2471892f7693570c7c040.palak-H410M-H-V3.24825.home-palak-POS:short
+13:41:57 Worker rq:worker:504f9bac30f74f0ea439393135467af2.palak-H410M-H-V3.25590.home-palak-POS:short: started, version 1.10.1
+13:41:57 Subscribing to channel rq:pubsub:504f9bac30f74f0ea439393135467af2.palak-H410M-H-V3.25590.home-palak-POS:short
+13:41:57 *** Listening on home-palak-POS:short...
+13:41:57 Cleaning registries for queue: home-palak-POS:short
+13:41:57 Worker rq:worker:2c08687d94254465b0f317672bcfcd12.palak-H410M-H-V3.25603.home-palak-POS:default: started, version 1.10.1
+13:41:57 Subscribing to channel rq:pubsub:2c08687d94254465b0f317672bcfcd12.palak-H410M-H-V3.25603.home-palak-POS:default
+13:41:57 *** Listening on home-palak-POS:default...
+13:41:57 Cleaning registries for queue: home-palak-POS:default
+13:41:57 Worker rq:worker:63d0ce09dcfc480bba9d3399ed0b801d.palak-H410M-H-V3.25583.home-palak-POS:long: started, version 1.10.1
+13:41:57 Subscribing to channel rq:pubsub:63d0ce09dcfc480bba9d3399ed0b801d.palak-H410M-H-V3.25583.home-palak-POS:long
+13:41:57 *** Listening on home-palak-POS:long...
+13:41:57 Cleaning registries for queue: home-palak-POS:long
+13:42:37 Warm shut down requested
+13:42:37 Warm shut down requested
+13:42:37 Warm shut down requested
+13:42:37 Unsubscribing from channel rq:pubsub:63d0ce09dcfc480bba9d3399ed0b801d.palak-H410M-H-V3.25583.home-palak-POS:long
+13:42:37 Unsubscribing from channel rq:pubsub:2c08687d94254465b0f317672bcfcd12.palak-H410M-H-V3.25603.home-palak-POS:default
+13:42:37 Unsubscribing from channel rq:pubsub:504f9bac30f74f0ea439393135467af2.palak-H410M-H-V3.25590.home-palak-POS:short

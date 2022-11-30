@@ -1,0 +1,36 @@
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220826_180002-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-26 18:00:03.659709
+Config  : ./pos.com/private/backups/20220826_180002-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220826_180002-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220829_120002-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-29 12:00:03.436554
+Config  : ./pos.com/private/backups/20220829_120002-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220829_120002-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220829_180003-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-29 18:00:05.724265
+Config  : ./pos.com/private/backups/20220829_180003-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220829_180003-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220830_120003-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-30 12:00:03.743891
+Config  : ./pos.com/private/backups/20220830_120003-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220830_120003-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220830_180003-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-30 18:00:04.255518
+Config  : ./pos.com/private/backups/20220830_180003-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220830_180003-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _4c21c4a189ca904e -p********** _4c21c4a189ca904e -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./pos.com/private/backups/20220831_120003-pos_com-database.sql.gz
+
+Backup Summary for pos.com at 2022-08-31 12:00:03.772998
+Config  : ./pos.com/private/backups/20220831_120003-pos_com-site_config_backup.json 94.0B
+Database: ./pos.com/private/backups/20220831_120003-pos_com-database.sql.gz         241.5KiB
+Backup for Site pos.com has been successfully completed
